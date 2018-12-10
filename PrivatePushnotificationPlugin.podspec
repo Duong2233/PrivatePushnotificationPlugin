@@ -17,20 +17,19 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.description      = 'Push notification plugin '
   s.homepage         = 'https://github.com/Duong2233/PrivatePushnotificationPlugin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Duong2233' => 'duong.nh@sutruxsolution.com' }
+  s.author           = { 'Duong2233' => 'duong.nh@sutrixsolution.com' }
   s.source           = { :git => 'https://github.com/Duong2233/PrivatePushnotificationPlugin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.platform     = :ios, '9.0'
 
-  s.source_files = 'PrivatePushnotificationPlugin/Classes/**/*'
+  s.swift_version = '4.1'
+  s.source_files = 'PrivatePushnotificationPlugin/Classes/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'PrivatePushnotificationPlugin' => ['PrivatePushnotificationPlugin/Assets/*.png']
@@ -38,5 +37,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'AWSCore', '~> 2.7.3'
 end

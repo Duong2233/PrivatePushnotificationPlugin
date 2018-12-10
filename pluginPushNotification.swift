@@ -10,9 +10,14 @@ import Foundation
 import AWSCore
 import AWSPinpoint
 import AWSMobileClient
+<<<<<<< HEAD
 
 import UserNotifications
 public class notificationPlugin: NSObject ,UNUserNotificationCenterDelegate{
+=======
+import UserNotifications
+@objc public class notificationPlugin: NSObject ,UNUserNotificationCenterDelegate{
+>>>>>>> Hello
     var pinpoint: AWSPinpoint?
     @objc public func registerForPushNotifications(didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
         AWSMobileClient.sharedInstance().initialize { (userState, error) in
@@ -22,6 +27,7 @@ public class notificationPlugin: NSObject ,UNUserNotificationCenterDelegate{
                 print("AWSMobileClient initialized. Current UserState: \(userState.rawValue)")
             }
         }
+<<<<<<< HEAD
         
         // Initialize Pinpoint
         let pinpointConfiguration = AWSPinpointConfiguration.defaultPinpointConfiguration(launchOptions: launchOptions)
@@ -48,5 +54,25 @@ public class notificationPlugin: NSObject ,UNUserNotificationCenterDelegate{
         }
     }
     
+=======
+
+        // Initialize Pinpoint
+        let pinpointConfiguration = AWSPinpointConfiguration.defaultPinpointConfiguration(launchOptions: launchOptions)
+        pinpoint = AWSPinpoint(configuration: pinpointConfiguration)
+
+        UNUserNotificationCenter.current().delegate = self
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) {
+            (granted, error) in
+            print("Permission granted: \(granted)")
+            // 1. Check if permission granted
+            guard granted else { return }
+            // 2. Attempt registration for remote notifications on the main thread
+            DispatchQueue.main.async {
+                UIApplication.shared.registerForRemoteNotifications()
+            }
+        }
+    }
+  
+>>>>>>> Hello
 }
 

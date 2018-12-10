@@ -1,6 +1,5 @@
 import XCTest
 import PrivatePushnotificationPlugin
-
 class Tests: XCTestCase {
     
     override func setUp() {
