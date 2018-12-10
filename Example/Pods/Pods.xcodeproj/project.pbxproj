@@ -238,8 +238,8 @@
 		D4A621240A58CB9E12ECCA560AD363FF /* AWSPinpointEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CC48F8B28EC5C1F2888B57ACBC4249BC /* AWSPinpointEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4E929B516F443E4FCABC2D8FF044395 /* AWSCognitoIdentityProviderSrpHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE0FC1E9182F4D0A4EB8980F41222ED /* AWSCognitoIdentityProviderSrpHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D694C0683D35966BBE505BEC6855D79B /* AWSPinpointStringUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1C0316E158DBE5AF379A3BF49B066F /* AWSPinpointStringUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D710960621BE8234003EFB74 /* pluginPushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710960521BE8234003EFB74 /* pluginPushNotification.swift */; };
-		D710960721BE8234003EFB74 /* pluginPushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710960521BE8234003EFB74 /* pluginPushNotification.swift */; };
+		D710960C21BE82F3003EFB74 /* pluginPushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710960B21BE82F3003EFB74 /* pluginPushNotification.swift */; };
+		D710960D21BE82F3003EFB74 /* pluginPushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710960B21BE82F3003EFB74 /* pluginPushNotification.swift */; };
 		D7147D15DEB95F5A3F4B375239ADEAE9 /* AWSJKBigDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEA902E3577AA96167263645411E8 /* AWSJKBigDecimal.m */; };
 		D73C834C1AA1250FFBB754EEECB9C5FF /* AWSPinpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F775D78FD8AB9D406829F68D98A1FB30 /* AWSPinpoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D98E2C33A5D75F5B4976A9F7001B0358 /* AWSDDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 774888EB789E70F56B88839A0B41F4CA /* AWSDDDispatchQueueLogFormatter.m */; };
@@ -714,7 +714,7 @@
 		D167529DD5A1F554ECB92ECEAAF379B5 /* AWSCognitoIdentityUser_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoIdentityUser_Internal.h; path = AWSCognitoIdentityProvider/Internal/AWSCognitoIdentityUser_Internal.h; sourceTree = "<group>"; };
 		D42DB79D1D74F6A374ED7F4DDCB5C073 /* PrivatePushnotificationPlugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivatePushnotificationPlugin-prefix.pch"; sourceTree = "<group>"; };
 		D4F74321ED23F5B01D22751B85D542B8 /* AWSPinpoint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWSPinpoint.modulemap; sourceTree = "<group>"; };
-		D710960521BE8234003EFB74 /* pluginPushNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = pluginPushNotification.swift; path = PrivatePushnotificationPlugin/Classes/pluginPushNotification.swift; sourceTree = "<group>"; };
+		D710960B21BE82F3003EFB74 /* pluginPushNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pluginPushNotification.swift; sourceTree = "<group>"; };
 		D71ADCB5390D6C64515BD54E50BD2C30 /* AWSXMLWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSXMLWriter.m; path = AWSCore/XMLWriter/AWSXMLWriter.m; sourceTree = "<group>"; };
 		D798C7F139CB8E20D4B3FA3033D99AB0 /* AWSPinpointNotificationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSPinpointNotificationManager.m; path = AWSPinpoint/AWSPinpointNotificationManager.m; sourceTree = "<group>"; };
 		D7A4A5E350A2FEDE3D44747F7B2390AA /* Pods-PrivatePushnotificationPlugin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrivatePushnotificationPlugin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -904,10 +904,10 @@
 		29619F1959C6A388115AD69ED7E3E600 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D710960521BE8234003EFB74 /* pluginPushNotification.swift */,
 				64428C09A4D1A180285FF041655A3015 /* LICENSE */,
 				8AFF611A7AD546D092BB24D0D61C113F /* PrivatePushnotificationPlugin.podspec */,
 				F0B1728AA9DABB8317478C35FFD3232A /* README.md */,
+				D710960B21BE82F3003EFB74 /* pluginPushNotification.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2033,7 +2033,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06FF23B481483148B9BBCB84A554AE4C /* Pods-PrivatePushnotificationPlugin_Example-dummy.m in Sources */,
-				D710960621BE8234003EFB74 /* pluginPushNotification.swift in Sources */,
+				D710960C21BE82F3003EFB74 /* pluginPushNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2052,7 +2052,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B519E56E0CCF0D3EE190B0A168B122A1 /* Pods-PrivatePushnotificationPlugin_Tests-dummy.m in Sources */,
-				D710960721BE8234003EFB74 /* pluginPushNotification.swift in Sources */,
+				D710960D21BE82F3003EFB74 /* pluginPushNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
