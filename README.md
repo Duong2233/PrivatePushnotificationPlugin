@@ -30,4 +30,3 @@ Duong2233, duong.nh@sutruxsolution.com
 ## License
 
 PrivatePushnotificationPlugin is available under the MIT license. See the LICENSE file for more info.
->>>>>>> Initial commit
