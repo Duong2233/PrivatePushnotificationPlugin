@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PrivatePushnotificationPlugin_Example' do
+  pod 'PrivatePushnotificationPlugin', :path => '../'
+
+  target 'PrivatePushnotificationPlugin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
