@@ -37,5 +37,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AWSCore', '~> 2.7.3'
+   s.dependency 'AWSCore', '~> 2.7.3'
+   s.dependency 'AWSPinpoint', '~> 2.7.0'
+   s.dependency 'AWSMobileClient', '~> 2.7.0'
+
 end
