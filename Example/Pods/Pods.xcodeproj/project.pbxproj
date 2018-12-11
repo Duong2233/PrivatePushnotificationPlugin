@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -74,7 +74,7 @@
 		355D3416F0312998D9FCFF500E2B1E89 /* AWSClientContext.h in Headers */ = {isa = PBXBuildFile; fileRef = B328B6B095D69B70A344FF2DC7515F33 /* AWSClientContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		365F628AE1D4AF1088109BE07F5603D6 /* Pods-PrivatePushnotificationPlugin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA782F494167DB7FD7BD5C49388AE72F /* Pods-PrivatePushnotificationPlugin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36CB1FB135D241F04122E9C718C35C6E /* AWSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9018F064AD350EC451ACB6DE39C405BA /* AWSTaskCompletionSource.m */; };
-		36D66D2404C51BE5BF8A770D14676FD8 /* PrivatePushnotificationPlugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 883D533561D098E52EAAF8BE9B9C7181 /* PrivatePushnotificationPlugin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D66D2404C51BE5BF8A770D14676FD8 /* PrivatePushnotificationPlugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2FAD439DE30CCB80EBD7FB217C07E2 /* PrivatePushnotificationPlugin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39880F9BDF33760380A5F6E95701E976 /* AWSMTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FF35395E3A2E6540D90E5F17B4FE7 /* AWSMTLJSONAdapter.m */; };
 		3AB033ACAFB176DCA70DD15423B2364D /* AWSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4779745D107B45959C9BE93490979FB8 /* AWSXMLDictionary.m */; };
 		3B6CFE1FFADCCD3DD5AFB19DC6876A5D /* NSError+AWSMTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A60BA4C7ECBEDFD40A2F8953851950 /* NSError+AWSMTLModelException.m */; };
@@ -112,7 +112,6 @@
 		56145CD6E87CF521589AE9400494435B /* aws_tommath_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 246EADE882ADEEC2E81C33B3285D7AE0 /* aws_tommath_class.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		56BB7D3F145B03021CB67C114E540DEC /* AWSDDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 078451E359115F9A48A72FA23BFA71AA /* AWSDDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57B7DBC5934A075DE6D227DB49BADFF5 /* AWSSTSResources.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DBD1872573EFACBF965957D6D8E07F0 /* AWSSTSResources.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58CC4323F1B1C9A0CF5486752915640A /* PrivatePushnotificationPlugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A8FDF3705E3377FE7604098927F833 /* PrivatePushnotificationPlugin-dummy.m */; };
 		58EA1E01A1C5142598B5ED6D04B38967 /* AWSDDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD91270DA0E84E165E1D9CC81CDB05 /* AWSDDMultiFormatter.m */; };
 		593436A9AE0296254829F3769796125C /* AWSCognitoIdentityProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 481D293A3224C958BD8C74770D163653 /* AWSCognitoIdentityProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C72202BAB864B3D0C02C8B92BD1DD4C /* AWSURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE530797CB410B0ADDF7E5160145C8 /* AWSURLResponseSerialization.m */; };
@@ -158,6 +157,7 @@
 		8AB159854784B6F930D16E67FC8FEA69 /* AWSIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F60C4BFE3F75127F79AD6D131C77 /* AWSIdentityProvider.m */; };
 		8AB3C69803751AAC4F9721B67D080B64 /* AWSCognitoIdentityUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFBDD80F939ABF066523F4D31DE217E /* AWSCognitoIdentityUser.m */; };
 		8BDBD18AFA4741179C5AC3581AB9B1E4 /* AWSMTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD884057886F7B24791673C052F56E3 /* AWSMTLModel+NSCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BEB90316A1112E72FCA13B14E6BD221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C515B767E96387CD469A8A478F84A9 /* Foundation.framework */; };
 		8C14FA8EFCD85EB2AF0AE74CE7A0DCF1 /* AWSPinpointEndpointProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 667D459C17F4D3C9D66A3117675CABF5 /* AWSPinpointEndpointProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E1D29059791B000C14578F6621A3FB5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB81FF46467CEA8DBCF3F0302008640 /* Security.framework */; };
 		8E45AA31F21006AE4CF5E19B3EDAAE7F /* AWSPinpointEventRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B86651932892462C450D55E50C6364 /* AWSPinpointEventRecorder.m */; };
@@ -170,11 +170,11 @@
 		9418E3BC81F3FDE6343C3BB66305A019 /* NSDictionary+AWSMTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 77153AB441B9DC51802462AB2E56DA35 /* NSDictionary+AWSMTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9485A67B436BBB33AF6A1D7547B5BD68 /* AWSFMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 10864B9A54E7E074514A13F1C13D18CE /* AWSFMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		960F441EF71F498EFD3F59D9851898A3 /* AWSEXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A046722D226DC0D9927D0F1699F99E6D /* AWSEXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9705AB34A5FBF87D3354E41DC51FF281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C515B767E96387CD469A8A478F84A9 /* Foundation.framework */; };
 		97A7E073B23C1921D5DFF11357C2BF98 /* AWSCognitoIdentityProviderASF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A965CBA92A63326E8B5A826AD6ED0F70 /* AWSCognitoIdentityProviderASF.framework */; };
 		985DD4A7360CEDE40CCE4F8097A5BC13 /* AWSTMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A204CD0EEE65F56BADCD61EB2F9EE226 /* AWSTMDiskCache.m */; };
 		991EA76ED5CF2426594DA84C10FD5BBC /* NSValueTransformer+AWSMTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EC310D2E8AA084B9E1A1913CF4F81E /* NSValueTransformer+AWSMTLInversionAdditions.m */; };
 		9AC25BD0B173E5D4248494D93E034A2A /* AWSURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A157694CD4473E5ADA8DDF79C400DE05 /* AWSURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB1500BCF1B40CBE0AAAE388862084A /* PrivatePushnotificationPlugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF71D1295A6DBEA3F474C0977B088EE /* PrivatePushnotificationPlugin-dummy.m */; };
 		9BD74777BF81A2B25EB85068AED2834B /* AWSPinpointService.h in Headers */ = {isa = PBXBuildFile; fileRef = E2170C41FB0621F150F0A483CD5E4BFA /* AWSPinpointService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C1D5568CF2FB5D6BB6CE80AB6E02200 /* AWSDDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D19ABED0DAADB6CDB98EE9B71EE684A /* AWSDDLog.m */; };
 		9CD43AE491EBFB0425912F9599A7B106 /* AWSKSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 83657A78958443568445D8C71D2FFE36 /* AWSKSReachability.m */; };
@@ -198,7 +198,6 @@
 		AD9E7A1398BC263175EAF0DA211216F1 /* AWSFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DF6029768CA865DEF502E74F4C3D61 /* AWSFMResultSet.m */; };
 		AFEB53D33CCDEB2EA4D99686009C11B6 /* AWSPinpointService.m in Sources */ = {isa = PBXBuildFile; fileRef = 048635D00EC88F2BD091656DDD3A3D23 /* AWSPinpointService.m */; };
 		AFF9653D775B2CEE34B8016F95444598 /* NSArray+AWSMTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD60F63ACEE945613012090BA2A9F6C /* NSArray+AWSMTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B140384A0648DD3153F87A1C850335A9 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB845941A7E068F80D9C3A0F27D75FBC /* AWSCore.framework */; };
 		B143D6648373138AD58428840CE19474 /* AWSMobileClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 86AECCE6B5AD2583F166B0093B8DC89A /* AWSMobileClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B15BA25020FF56356AB75292E0DE7775 /* AWSCognitoIdentityProviderSrpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C158E56CE19546B439A87C6E879E159D /* AWSCognitoIdentityProviderSrpHelper.m */; };
 		B17F74B3D610CD592B93E5C11BEA15EB /* AWSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A87EED7AFABC0FE056AF60B4A2F9DEA9 /* AWSCategory.m */; };
@@ -238,13 +237,8 @@
 		D4A621240A58CB9E12ECCA560AD363FF /* AWSPinpointEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CC48F8B28EC5C1F2888B57ACBC4249BC /* AWSPinpointEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4E929B516F443E4FCABC2D8FF044395 /* AWSCognitoIdentityProviderSrpHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE0FC1E9182F4D0A4EB8980F41222ED /* AWSCognitoIdentityProviderSrpHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D694C0683D35966BBE505BEC6855D79B /* AWSPinpointStringUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1C0316E158DBE5AF379A3BF49B066F /* AWSPinpointStringUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
-<<<<<<< HEAD
-		D710960C21BE82F3003EFB74 /* pluginPushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710960B21BE82F3003EFB74 /* pluginPushNotification.swift */; };
-		D710960D21BE82F3003EFB74 /* pluginPushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710960B21BE82F3003EFB74 /* pluginPushNotification.swift */; };
-=======
-		D71095FA21BE72B5003EFB74 /* notificationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71095F821BE72B5003EFB74 /* notificationPlugin.swift */; };
-		D71095FB21BE72B5003EFB74 /* notificationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71095F821BE72B5003EFB74 /* notificationPlugin.swift */; };
->>>>>>> Hello
+		D710961421BF5A5A003EFB74 /* notificationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E09E89F177623544DE0B41F70544F /* notificationPlugin.swift */; };
+		D710961521BF5A5A003EFB74 /* notificationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E09E89F177623544DE0B41F70544F /* notificationPlugin.swift */; };
 		D7147D15DEB95F5A3F4B375239ADEAE9 /* AWSJKBigDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEA902E3577AA96167263645411E8 /* AWSJKBigDecimal.m */; };
 		D73C834C1AA1250FFBB754EEECB9C5FF /* AWSPinpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F775D78FD8AB9D406829F68D98A1FB30 /* AWSPinpoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D98E2C33A5D75F5B4976A9F7001B0358 /* AWSDDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 774888EB789E70F56B88839A0B41F4CA /* AWSDDDispatchQueueLogFormatter.m */; };
@@ -433,13 +427,6 @@
 			remoteGlobalIDString = 7DA9FAF226D4CA9050D3B9B24633700D;
 			remoteInfo = AWSCognitoIdentityProvider;
 		};
-		E45CF04182CD52265E9DEDA99313FCC0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5AB80C6B2AFE9B5A6D398656A483ED5C;
-			remoteInfo = AWSCore;
-		};
 		E629D78867E0C6BFA3A75FE9D32920F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -464,6 +451,7 @@
 		04F40FD5BD052C3C38DBD2873A3EDE5B /* AWSBolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSBolts.m; path = AWSCore/Bolts/AWSBolts.m; sourceTree = "<group>"; };
 		055DEA8D1CA76A322DBE4868CA315C4D /* AWSMobileClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWSMobileClient-umbrella.h"; sourceTree = "<group>"; };
 		057EAE85CB1C4825EFC26872B250568E /* AWSMTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSMTLReflection.h; path = AWSCore/Mantle/AWSMTLReflection.h; sourceTree = "<group>"; };
+		06BE396698814C678686651C9B58039E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		078451E359115F9A48A72FA23BFA71AA /* AWSDDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSDDDispatchQueueLogFormatter.h; path = AWSCore/Logging/Extensions/AWSDDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		08ACF432A220F67B77FE1D9253DB19FB /* AWSURLRequestRetryHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSURLRequestRetryHandler.h; path = AWSCore/Serialization/AWSURLRequestRetryHandler.h; sourceTree = "<group>"; };
 		094118980957177E2EDD334F7616EFF1 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = AWSCore/Fabric/Fabric.h; sourceTree = "<group>"; };
@@ -485,12 +473,12 @@
 		14F2A314EDCF96F86904EC704F6E5602 /* AWSPinpointAnalyticsClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSPinpointAnalyticsClient.m; path = AWSPinpoint/AWSPinpointAnalyticsClient.m; sourceTree = "<group>"; };
 		159F0545EB1166AF02FA154DF5FF3A68 /* AWSXMLDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSXMLDictionary.h; path = AWSCore/XMLDictionary/AWSXMLDictionary.h; sourceTree = "<group>"; };
 		15AF6F1AABD4D2AF4E36D48A61E9909E /* AWSURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSURLResponseSerialization.h; path = AWSCore/Serialization/AWSURLResponseSerialization.h; sourceTree = "<group>"; };
+		167CAACD79F505BBA60E03E8FEDC3745 /* PrivatePushnotificationPlugin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrivatePushnotificationPlugin.xcconfig; sourceTree = "<group>"; };
 		16EE6F8D4F8AF07D7B1020E31EA22CCC /* NSValueTransformer+AWSMTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+AWSMTLInversionAdditions.h"; path = "AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"; sourceTree = "<group>"; };
 		16FAE6C819B9044DAA6436DD08F6E157 /* AWSCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCancellationTokenSource.m; path = AWSCore/Bolts/AWSCancellationTokenSource.m; sourceTree = "<group>"; };
-		1893A49AF554571701D3DDA72840C36E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BBB968AD342475D5C432895C27AB02 /* PrivatePushnotificationPlugin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PrivatePushnotificationPlugin.modulemap; sourceTree = "<group>"; };
 		1A789FBF77AA4B67B4D2AA7628D7828D /* AWSPinpointEndpointProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSPinpointEndpointProfile.m; path = AWSPinpoint/AWSPinpointEndpointProfile.m; sourceTree = "<group>"; };
 		1B0C91569CD0853F52D0628D5205352B /* AWSCognitoIdentityProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSCognitoIdentityProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BB73C271D41000DF0DEB534412A06B6 /* PrivatePushnotificationPlugin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PrivatePushnotificationPlugin.modulemap; sourceTree = "<group>"; };
 		1C0E7E5F36A5C57B895D414EAC58897A /* AWSDDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSDDASLLogger.h; path = AWSCore/Logging/AWSDDASLLogger.h; sourceTree = "<group>"; };
 		1E217028435C54874C47142D432CC968 /* AWSCredentialsProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCredentialsProvider.m; path = AWSCore/Authentication/AWSCredentialsProvider.m; sourceTree = "<group>"; };
 		1E3529DB12C4DDBE2269BA61EDE1BA72 /* Pods-PrivatePushnotificationPlugin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrivatePushnotificationPlugin_Example.modulemap"; sourceTree = "<group>"; };
@@ -526,6 +514,7 @@
 		3C64FFF20C52C22A1E1013AD6A8D3F6A /* NSData+AWSCognitoIdentityProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+AWSCognitoIdentityProvider.m"; path = "AWSCognitoIdentityProvider/Internal/NSData+AWSCognitoIdentityProvider.m"; sourceTree = "<group>"; };
 		3E503C0E1DCE41359E953D2A72F2BA85 /* AWSDDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSDDLog.h; path = AWSCore/Logging/AWSDDLog.h; sourceTree = "<group>"; };
 		3E682A8466C3AB9D8921954152DFA697 /* Pods-PrivatePushnotificationPlugin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrivatePushnotificationPlugin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F179460DCAFD4900DE6A3C797C49CC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3F39647732BDD62E1B5BA29C73BED321 /* AWSUICKeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSUICKeyChainStore.m; path = AWSCore/UICKeyChainStore/AWSUICKeyChainStore.m; sourceTree = "<group>"; };
 		40C99C5AF4FE220A1A44A3C2DA389EE3 /* AWSPinpointTargetingService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSPinpointTargetingService.m; path = AWSPinpoint/AWSPinpointTargeting/AWSPinpointTargetingService.m; sourceTree = "<group>"; };
 		411D5FCDB9E2DFBCE929980622CC89BF /* AWSURLRequestRetryHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSURLRequestRetryHandler.m; path = AWSCore/Serialization/AWSURLRequestRetryHandler.m; sourceTree = "<group>"; };
@@ -535,6 +524,7 @@
 		424CF46249E0401A383EF4E28A4603F2 /* AWSFMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSFMResultSet.h; path = AWSCore/FMDB/AWSFMResultSet.h; sourceTree = "<group>"; };
 		43E3152605855A18DEA53CCB78400560 /* AWSCognitoIdentityService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoIdentityService.m; path = AWSCore/CognitoIdentity/AWSCognitoIdentityService.m; sourceTree = "<group>"; };
 		43FFFFEB3DFB6424E088445662063317 /* AWSLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSLogging.m; path = AWSCore/Utility/AWSLogging.m; sourceTree = "<group>"; };
+		442725A89C863A1206CF8121740768B9 /* PrivatePushnotificationPlugin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PrivatePushnotificationPlugin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4435A2629F6CF4C6209E7FDDE2B0D2C0 /* AWSFMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSFMDatabasePool.m; path = AWSCore/FMDB/AWSFMDatabasePool.m; sourceTree = "<group>"; };
 		443B37290E8872A3EA0C3D38B07DDBAC /* AWSSynchronizedMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSSynchronizedMutableDictionary.h; path = AWSCore/Utility/AWSSynchronizedMutableDictionary.h; sourceTree = "<group>"; };
 		45A092D06DB6E73E6EBF2403D89A71F6 /* AWSMobileClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWSMobileClient.swift; path = AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClient.swift; sourceTree = "<group>"; };
@@ -580,7 +570,6 @@
 		612E555CFF489E88FD3B22780466786C /* AWSModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSModel.h; path = AWSCore/Utility/AWSModel.h; sourceTree = "<group>"; };
 		615103FA43F29C099C5FC907023FC710 /* Pods-PrivatePushnotificationPlugin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrivatePushnotificationPlugin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		623E7687CDCFAB285A6C4EC2C7963FC2 /* PrivatePushnotificationPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrivatePushnotificationPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64428C09A4D1A180285FF041655A3015 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6578C6D7C8DD875FDB04F5F3BF20E0C6 /* AWSCognitoIdentityProviderASF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWSCognitoIdentityProviderASF.modulemap; sourceTree = "<group>"; };
 		667D459C17F4D3C9D66A3117675CABF5 /* AWSPinpointEndpointProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSPinpointEndpointProfile.h; path = AWSPinpoint/AWSPinpointEndpointProfile.h; sourceTree = "<group>"; };
 		6702F60C4BFE3F75127F79AD6D131C77 /* AWSIdentityProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSIdentityProvider.m; path = AWSCore/Authentication/AWSIdentityProvider.m; sourceTree = "<group>"; };
@@ -627,10 +616,8 @@
 		85F697C9363EA59609C2AEE1FB6B018D /* AWSPinpointTargetingResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSPinpointTargetingResources.h; path = AWSPinpoint/AWSPinpointTargeting/AWSPinpointTargetingResources.h; sourceTree = "<group>"; };
 		86AECCE6B5AD2583F166B0093B8DC89A /* AWSMobileClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSMobileClient.h; path = AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClient.h; sourceTree = "<group>"; };
 		875D753D9E4AA5EF83EF459C404E336C /* AWSMTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSMTLModel.h; path = AWSCore/Mantle/AWSMTLModel.h; sourceTree = "<group>"; };
-		883D533561D098E52EAAF8BE9B9C7181 /* PrivatePushnotificationPlugin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivatePushnotificationPlugin-umbrella.h"; sourceTree = "<group>"; };
 		88AEEC1C1AB55EEE6E640F15C517F1C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		892E04D1F4B69DBF31C0A027CE435A73 /* AWSUserPoolOperationsHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWSUserPoolOperationsHandler.swift; path = AWSAuthSDK/Sources/AWSMobileClient/AWSUserPoolOperationsHandler.swift; sourceTree = "<group>"; };
-		8AFF611A7AD546D092BB24D0D61C113F /* PrivatePushnotificationPlugin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PrivatePushnotificationPlugin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B364949872B21A7711CFCEEF52DE1B4 /* AWSSignInManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSSignInManager.m; path = AWSAuthSDK/Sources/AWSAuthCore/AWSSignInManager.m; sourceTree = "<group>"; };
 		8B99109379BAAB05CF64D54EA6962BB9 /* AWSModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSModel.m; path = AWSCore/Utility/AWSModel.m; sourceTree = "<group>"; };
 		8BFE77F3BABB469A38AFC3756C6BC3E2 /* AWSDDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSDDASLLogCapture.h; path = AWSCore/Logging/AWSDDASLLogCapture.h; sourceTree = "<group>"; };
@@ -650,7 +637,9 @@
 		93BB7D184F37C493BD1A4964230EE8FE /* AWSXMLWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSXMLWriter.h; path = AWSCore/XMLWriter/AWSXMLWriter.h; sourceTree = "<group>"; };
 		94E0EB621DAD536E86976BBC82EA8B5B /* AWSCognitoIdentity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoIdentity.h; path = AWSCore/CognitoIdentity/AWSCognitoIdentity.h; sourceTree = "<group>"; };
 		96ABEC48CB20300861DCEAD6E94C301A /* AWSPinpointConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSPinpointConfiguration.m; path = AWSPinpoint/AWSPinpointConfiguration.m; sourceTree = "<group>"; };
+		99CB9D134C1D563380565CD9E43A4369 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A5F498D52D2D1859350248A3C159FB8 /* AWSCognitoIdentityUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoIdentityUser.h; path = AWSCognitoIdentityProvider/AWSCognitoIdentityUser.h; sourceTree = "<group>"; };
+		9D2FAD439DE30CCB80EBD7FB217C07E2 /* PrivatePushnotificationPlugin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivatePushnotificationPlugin-umbrella.h"; sourceTree = "<group>"; };
 		A046722D226DC0D9927D0F1699F99E6D /* AWSEXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSEXTKeyPathCoding.h; path = AWSCore/Mantle/extobjc/AWSEXTKeyPathCoding.h; sourceTree = "<group>"; };
 		A078D113059F316B03BC73E6F646C31E /* AWSDDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSDDAbstractDatabaseLogger.h; path = AWSCore/Logging/AWSDDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		A157694CD4473E5ADA8DDF79C400DE05 /* AWSURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSURLRequestSerialization.h; path = AWSCore/Serialization/AWSURLRequestSerialization.h; sourceTree = "<group>"; };
@@ -689,7 +678,6 @@
 		B50E3249C63B4AD24DDF1DEC2D87983A /* AWSDDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AWSDDLog+LOGV.h"; path = "AWSCore/Logging/AWSDDLog+LOGV.h"; sourceTree = "<group>"; };
 		B58A98C3B34F14B1E12C6E0712EB0FEB /* NSObject+AWSMTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AWSMTLComparisonAdditions.h"; path = "AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"; sourceTree = "<group>"; };
 		B5F0336FE8B7F9FC7D51E72D78A58515 /* AWSCognitoIdentityResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoIdentityResources.h; path = AWSCore/CognitoIdentity/AWSCognitoIdentityResources.h; sourceTree = "<group>"; };
-		B699D00143A5B9831AA23C4C34F5DE3D /* PrivatePushnotificationPlugin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrivatePushnotificationPlugin.xcconfig; sourceTree = "<group>"; };
 		B6FD6806116CCFE6F38485B328AC13D0 /* AWSJKBigInteger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSJKBigInteger.h; path = AWSCognitoIdentityProvider/Internal/JKBigInteger/AWSJKBigInteger.h; sourceTree = "<group>"; };
 		B85CF5629195276C7A7302FEA0A4EA65 /* AWSMTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSMTLValueTransformer.h; path = AWSCore/Mantle/AWSMTLValueTransformer.h; sourceTree = "<group>"; };
 		B910AEB3E8D7DFBC721A5988D03AA4E4 /* AWSServiceEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSServiceEnum.h; path = AWSCore/Service/AWSServiceEnum.h; sourceTree = "<group>"; };
@@ -706,6 +694,7 @@
 		C158E56CE19546B439A87C6E879E159D /* AWSCognitoIdentityProviderSrpHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoIdentityProviderSrpHelper.m; path = AWSCognitoIdentityProvider/Internal/AWSCognitoIdentityProviderSrpHelper.m; sourceTree = "<group>"; };
 		C6980C07E795EF81AC38BA984A8A571F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C76DF64F09BF8C79E163987FB615FA08 /* AWSCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCore.h; path = AWSCore/AWSCore.h; sourceTree = "<group>"; };
+		C952C6FEA9A5C6FB229CD8B58916399E /* PrivatePushnotificationPlugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivatePushnotificationPlugin-prefix.pch"; sourceTree = "<group>"; };
 		CA43D2CAC7D7DD9BE258BB9C955C7CF1 /* AWSSignInButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSSignInButtonView.h; path = AWSAuthSDK/Sources/AWSAuthCore/AWSSignInButtonView.h; sourceTree = "<group>"; };
 		CAD9EC8F16D9471BB5EBC2EADA0F2A24 /* AWSCocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCocoaLumberjack.h; path = AWSCore/Logging/AWSCocoaLumberjack.h; sourceTree = "<group>"; };
 		CB1D04A425C3F1A911B337A1B5CFAC21 /* AWSPinpoint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWSPinpoint-dummy.m"; sourceTree = "<group>"; };
@@ -717,17 +706,10 @@
 		CEB81FF46467CEA8DBCF3F0302008640 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		CF92F54BE86BDE802DCFB5619DC43A06 /* AWSCognitoIdentityProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWSCognitoIdentityProvider.modulemap; sourceTree = "<group>"; };
 		D167529DD5A1F554ECB92ECEAAF379B5 /* AWSCognitoIdentityUser_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoIdentityUser_Internal.h; path = AWSCognitoIdentityProvider/Internal/AWSCognitoIdentityUser_Internal.h; sourceTree = "<group>"; };
-		D42DB79D1D74F6A374ED7F4DDCB5C073 /* PrivatePushnotificationPlugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivatePushnotificationPlugin-prefix.pch"; sourceTree = "<group>"; };
 		D4F74321ED23F5B01D22751B85D542B8 /* AWSPinpoint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWSPinpoint.modulemap; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		D710960B21BE82F3003EFB74 /* pluginPushNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pluginPushNotification.swift; sourceTree = "<group>"; };
-=======
-		D71095F821BE72B5003EFB74 /* notificationPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationPlugin.swift; sourceTree = "<group>"; };
->>>>>>> Hello
 		D71ADCB5390D6C64515BD54E50BD2C30 /* AWSXMLWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSXMLWriter.m; path = AWSCore/XMLWriter/AWSXMLWriter.m; sourceTree = "<group>"; };
 		D798C7F139CB8E20D4B3FA3033D99AB0 /* AWSPinpointNotificationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSPinpointNotificationManager.m; path = AWSPinpoint/AWSPinpointNotificationManager.m; sourceTree = "<group>"; };
 		D7A4A5E350A2FEDE3D44747F7B2390AA /* Pods-PrivatePushnotificationPlugin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrivatePushnotificationPlugin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D7A8FDF3705E3377FE7604098927F833 /* PrivatePushnotificationPlugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrivatePushnotificationPlugin-dummy.m"; sourceTree = "<group>"; };
 		D7EE409BE1828DC0EB96D2F509A8D478 /* Fabric+FABKits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Fabric+FABKits.h"; path = "AWSCore/Fabric/Fabric+FABKits.h"; sourceTree = "<group>"; };
 		D82C52B3DA633B1DD2B91900AC0466C5 /* NSError+AWSMTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+AWSMTLModelException.h"; path = "AWSCore/Mantle/NSError+AWSMTLModelException.h"; sourceTree = "<group>"; };
 		D95B8166816215C75EF940AA977FC4F1 /* tommath.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = tommath.c; path = AWSCognitoIdentityProvider/Internal/JKBigInteger/LibTomMath/tommath.c; sourceTree = "<group>"; };
@@ -761,9 +743,9 @@
 		EECABB89EE26324CCBA22187BAA30190 /* AWSmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSmetamacros.h; path = AWSCore/Mantle/extobjc/AWSmetamacros.h; sourceTree = "<group>"; };
 		EF3D5BA78BA52FEA7D7E443C71F2239D /* libAWSCognitoIdentityProviderASFBinary.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAWSCognitoIdentityProviderASFBinary.a; path = AWSCognitoIdentityProviderASF/Internal/libAWSCognitoIdentityProviderASFBinary.a; sourceTree = "<group>"; };
 		EF706996263D551F8799F23E19B52D69 /* AWSNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSNetworking.m; path = AWSCore/Networking/AWSNetworking.m; sourceTree = "<group>"; };
-		F0B1728AA9DABB8317478C35FFD3232A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F1173825C682B4CB631AA0AB7B4ACEB6 /* AWSNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSNetworking.h; path = AWSCore/Networking/AWSNetworking.h; sourceTree = "<group>"; };
 		F14FE22CA6426B641A464D41E7399165 /* AWSMobileClientExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWSMobileClientExtensions.swift; path = AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientExtensions.swift; sourceTree = "<group>"; };
+		F16E09E89F177623544DE0B41F70544F /* notificationPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = notificationPlugin.swift; path = PrivatePushnotificationPlugin/Classes/notificationPlugin.swift; sourceTree = "<group>"; };
 		F185EBCE39555F0105F1AD6E907739E5 /* AWSAuthCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWSAuthCore-dummy.m"; sourceTree = "<group>"; };
 		F18CEE96AD1C8893D29B58A2271AF6A6 /* AWSCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCancellationTokenRegistration.m; path = AWSCore/Bolts/AWSCancellationTokenRegistration.m; sourceTree = "<group>"; };
 		F1C2AE83AB30209F77B46CA55276DF11 /* AWSSTSModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSSTSModel.m; path = AWSCore/STS/AWSSTSModel.m; sourceTree = "<group>"; };
@@ -778,6 +760,7 @@
 		F813A7403925AA640432D5959DAE5648 /* AWSEXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSEXTRuntimeExtensions.m; path = AWSCore/Mantle/extobjc/AWSEXTRuntimeExtensions.m; sourceTree = "<group>"; };
 		FA6882F763EE40277ECDB341F8FB38BD /* AWSPinpointConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSPinpointConfiguration.h; path = AWSPinpoint/AWSPinpointConfiguration.h; sourceTree = "<group>"; };
 		FB48C423312B025BB38B5157F0C366E8 /* AWSPinpointTargetingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSPinpointTargetingService.h; path = AWSPinpoint/AWSPinpointTargeting/AWSPinpointTargetingService.h; sourceTree = "<group>"; };
+		FDF71D1295A6DBEA3F474C0977B088EE /* PrivatePushnotificationPlugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrivatePushnotificationPlugin-dummy.m"; sourceTree = "<group>"; };
 		FF941A4C1367896064C7E7942E3EA5FF /* AWSUICKeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSUICKeyChainStore.h; path = AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h; sourceTree = "<group>"; };
 		FFC0F273D88167C862152FDF0F943508 /* AWSCognitoIdentity+Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AWSCognitoIdentity+Fabric.h"; path = "AWSCore/CognitoIdentity/AWSCognitoIdentity+Fabric.h"; sourceTree = "<group>"; };
 		FFD629B30DBA71B10F19755E2816D013 /* AWSCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCancellationTokenRegistration.h; path = AWSCore/Bolts/AWSCancellationTokenRegistration.h; sourceTree = "<group>"; };
@@ -817,15 +800,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3031482BD69B8D9BACF10E263DE95669 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B140384A0648DD3153F87A1C850335A9 /* AWSCore.framework in Frameworks */,
-				9705AB34A5FBF87D3354E41DC51FF281 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		748FAB878AB4DC8C2072723CAE152361 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -859,6 +833,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F69CA8EA4B684A5D765ECF4F1D0C4C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEB90316A1112E72FCA13B14E6BD221 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB7BB00F1150BDC5EE6BE4D27FA6DBD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -874,6 +856,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10801A1982B7122558675A99BEC91C69 /* PrivatePushnotificationPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				F16E09E89F177623544DE0B41F70544F /* notificationPlugin.swift */,
+				70D6300CB2661B691AC8053DA3990B90 /* Pod */,
+				6CE7BAE20BAFE380424E38789BD2F8BB /* Support Files */,
+			);
+			name = PrivatePushnotificationPlugin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		133389481CBF1CD53BB5AF0C7EBB8863 /* Pods-PrivatePushnotificationPlugin_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -910,21 +903,6 @@
 			path = "Target Support Files/Pods-PrivatePushnotificationPlugin_Tests";
 			sourceTree = "<group>";
 		};
-		29619F1959C6A388115AD69ED7E3E600 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				64428C09A4D1A180285FF041655A3015 /* LICENSE */,
-				8AFF611A7AD546D092BB24D0D61C113F /* PrivatePushnotificationPlugin.podspec */,
-				F0B1728AA9DABB8317478C35FFD3232A /* README.md */,
-<<<<<<< HEAD
-				D710960B21BE82F3003EFB74 /* pluginPushNotification.swift */,
-=======
-				D71095F821BE72B5003EFB74 /* notificationPlugin.swift */,
->>>>>>> Hello
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		3B850990638E82839E187F70F568DA28 /* AWSCognitoIdentityProviderASF */ = {
 			isa = PBXGroup;
 			children = (
@@ -935,14 +913,6 @@
 				FC1997B16F7DBB089914B05BC3890168 /* Support Files */,
 			);
 			path = AWSCognitoIdentityProviderASF;
-			sourceTree = "<group>";
-		};
-		3C121253F480A105011A08E4C7605D60 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BBA5DB48EFC1BEA629A3D603F89C596D /* PrivatePushnotificationPlugin */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		52CFBC1A0EE6D399925B4F1F07459EFC /* AWSMobileClient */ = {
@@ -996,25 +966,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6FC12C85DAAB548E4C843E6194F13C4A /* Support Files */ = {
+		6CE7BAE20BAFE380424E38789BD2F8BB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1893A49AF554571701D3DDA72840C36E /* Info.plist */,
-				1BB73C271D41000DF0DEB534412A06B6 /* PrivatePushnotificationPlugin.modulemap */,
-				B699D00143A5B9831AA23C4C34F5DE3D /* PrivatePushnotificationPlugin.xcconfig */,
-				D7A8FDF3705E3377FE7604098927F833 /* PrivatePushnotificationPlugin-dummy.m */,
-				D42DB79D1D74F6A374ED7F4DDCB5C073 /* PrivatePushnotificationPlugin-prefix.pch */,
-				883D533561D098E52EAAF8BE9B9C7181 /* PrivatePushnotificationPlugin-umbrella.h */,
+				99CB9D134C1D563380565CD9E43A4369 /* Info.plist */,
+				19BBB968AD342475D5C432895C27AB02 /* PrivatePushnotificationPlugin.modulemap */,
+				167CAACD79F505BBA60E03E8FEDC3745 /* PrivatePushnotificationPlugin.xcconfig */,
+				FDF71D1295A6DBEA3F474C0977B088EE /* PrivatePushnotificationPlugin-dummy.m */,
+				C952C6FEA9A5C6FB229CD8B58916399E /* PrivatePushnotificationPlugin-prefix.pch */,
+				9D2FAD439DE30CCB80EBD7FB217C07E2 /* PrivatePushnotificationPlugin-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PrivatePushnotificationPlugin";
+			sourceTree = "<group>";
+		};
+		70D6300CB2661B691AC8053DA3990B90 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F179460DCAFD4900DE6A3C797C49CC5 /* LICENSE */,
+				442725A89C863A1206CF8121740768B9 /* PrivatePushnotificationPlugin.podspec */,
+				06BE396698814C678686651C9B58039E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		76D51E7A89E8D08EF12A9A85BB115938 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10801A1982B7122558675A99BEC91C69 /* PrivatePushnotificationPlugin */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3C121253F480A105011A08E4C7605D60 /* Development Pods */,
+				76D51E7A89E8D08EF12A9A85BB115938 /* Development Pods */,
 				A5F9B6ACEC17847B454973868BCED1C3 /* Frameworks */,
 				A7DF59C37A097E2C26E7B3745B7E2BCD /* Pods */,
 				A115A9372640E97FE2DD55E73AE8CBC7 /* Products */,
@@ -1277,16 +1265,6 @@
 				9BD7985BDBB7C3C025E2832166C6114C /* AWSPinpoint */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		BBA5DB48EFC1BEA629A3D603F89C596D /* PrivatePushnotificationPlugin */ = {
-			isa = PBXGroup;
-			children = (
-				29619F1959C6A388115AD69ED7E3E600 /* Classes */,
-				6FC12C85DAAB548E4C843E6194F13C4A /* Support Files */,
-			);
-			name = PrivatePushnotificationPlugin;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C988C4CCBE8745A00B059A195981181F /* Support Files */ = {
@@ -1621,14 +1599,13 @@
 			buildConfigurationList = 1CDA8ECCE480A9BC4D0165CEB600C005 /* Build configuration list for PBXNativeTarget "PrivatePushnotificationPlugin" */;
 			buildPhases = (
 				BF91CC55CAD37212B850D026C5A06306 /* Headers */,
-				8AED6093620C94CCC89FD55DE2073A92 /* Sources */,
-				3031482BD69B8D9BACF10E263DE95669 /* Frameworks */,
+				EF81CC68413920CE190761903FE29109 /* Sources */,
+				F69CA8EA4B684A5D765ECF4F1D0C4C09 /* Frameworks */,
 				1DA68B956B6F9445A3A2C8AECDF23A21 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				869CA2315C483E89AD3135AA181D6F59 /* PBXTargetDependency */,
 			);
 			name = PrivatePushnotificationPlugin;
 			productName = PrivatePushnotificationPlugin;
@@ -1809,23 +1786,9 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					19AB6AC063B8CEFBF7C383D48421348B = {
-						LastSwiftMigration = 0940;
-					};
-					91A5956C030C30B74EAED0B95C0D1B7A = {
-						LastSwiftMigration = 0940;
-					};
-					9CCE49F16BB4AA6C28ADC82F170DF40C = {
-						LastSwiftMigration = 0940;
-					};
-					E766441ECDCF3F59FD91BA811481C62A = {
-						LastSwiftMigration = 0940;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -2033,24 +1996,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AED6093620C94CCC89FD55DE2073A92 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58CC4323F1B1C9A0CF5486752915640A /* PrivatePushnotificationPlugin-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D4F6C51E004212A95465DE467FB4589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				06FF23B481483148B9BBCB84A554AE4C /* Pods-PrivatePushnotificationPlugin_Example-dummy.m in Sources */,
-<<<<<<< HEAD
-				D710960C21BE82F3003EFB74 /* pluginPushNotification.swift in Sources */,
-=======
-				D71095FA21BE72B5003EFB74 /* notificationPlugin.swift in Sources */,
->>>>>>> Hello
+				D710961521BF5A5A003EFB74 /* notificationPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2069,11 +2020,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B519E56E0CCF0D3EE190B0A168B122A1 /* Pods-PrivatePushnotificationPlugin_Tests-dummy.m in Sources */,
-<<<<<<< HEAD
-				D710960D21BE82F3003EFB74 /* pluginPushNotification.swift in Sources */,
-=======
-				D71095FB21BE72B5003EFB74 /* notificationPlugin.swift in Sources */,
->>>>>>> Hello
+				D710961421BF5A5A003EFB74 /* notificationPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2097,6 +2044,14 @@
 				296C8660AA139B9652BD6F3EB99174FD /* AWSPinpointTargetingModel.m in Sources */,
 				FB16D563699C971496901539FCE65E5A /* AWSPinpointTargetingResources.m in Sources */,
 				1842FCCD1654C98893686F73C5252E04 /* AWSPinpointTargetingService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF81CC68413920CE190761903FE29109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB1500BCF1B40CBE0AAAE388862084A /* PrivatePushnotificationPlugin-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2156,12 +2111,6 @@
 			name = AWSMobileClient;
 			target = A902AF203FEC4DD28ABC5DFC6BC78832 /* AWSMobileClient */;
 			targetProxy = 56933A5DE3727F7A57AC120DC810464B /* PBXContainerItemProxy */;
-		};
-		869CA2315C483E89AD3135AA181D6F59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AWSCore;
-			target = 5AB80C6B2AFE9B5A6D398656A483ED5C /* AWSCore */;
-			targetProxy = E45CF04182CD52265E9DEDA99313FCC0 /* PBXContainerItemProxy */;
 		};
 		8C11FC2A4A27EB92D6460184A8351D1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2249,7 +2198,6 @@
 			baseConfigurationReference = CE241870E8A4E78ACB1D09BAB923CF13 /* Pods-PrivatePushnotificationPlugin_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2262,7 +2210,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Pods-PrivatePushnotificationPlugin_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2272,8 +2224,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2298,7 +2250,11 @@
 				INFOPLIST_FILE = "Target Support Files/AWSCore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSCore/AWSCore.modulemap";
 				PRODUCT_MODULE_NAME = AWSCore;
 				PRODUCT_NAME = AWSCore;
@@ -2312,12 +2268,47 @@
 			};
 			name = Debug;
 		};
+		3BC3A14A6F78AD7F8F4F809A93FE6FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167CAACD79F505BBA60E03E8FEDC3745 /* PrivatePushnotificationPlugin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PrivatePushnotificationPlugin/PrivatePushnotificationPlugin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PrivatePushnotificationPlugin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PrivatePushnotificationPlugin/PrivatePushnotificationPlugin.modulemap";
+				PRODUCT_MODULE_NAME = PrivatePushnotificationPlugin;
+				PRODUCT_NAME = PrivatePushnotificationPlugin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		47F034BF8D0150B9A03685DEE0544B80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 703756F4CA09C810C188B57664701FD7 /* Pods-PrivatePushnotificationPlugin_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2330,7 +2321,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Pods-PrivatePushnotificationPlugin_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2342,7 +2337,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2366,7 +2360,11 @@
 				INFOPLIST_FILE = "Target Support Files/AWSCognitoIdentityProviderASF/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.modulemap";
 				PRODUCT_MODULE_NAME = AWSCognitoIdentityProviderASF;
 				PRODUCT_NAME = AWSCognitoIdentityProviderASF;
@@ -2463,7 +2461,11 @@
 				INFOPLIST_FILE = "Target Support Files/AWSPinpoint/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSPinpoint/AWSPinpoint.modulemap";
 				PRODUCT_MODULE_NAME = AWSPinpoint;
 				PRODUCT_NAME = AWSPinpoint;
@@ -2483,7 +2485,6 @@
 			baseConfigurationReference = 615103FA43F29C099C5FC907023FC710 /* Pods-PrivatePushnotificationPlugin_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2496,7 +2497,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-PrivatePushnotificationPlugin_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PrivatePushnotificationPlugin_Example/Pods-PrivatePushnotificationPlugin_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2508,7 +2513,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2520,7 +2524,6 @@
 			baseConfigurationReference = 3B94EF9C8696194E7A13D9BC07A2401A /* Pods-PrivatePushnotificationPlugin_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2533,7 +2536,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-PrivatePushnotificationPlugin_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PrivatePushnotificationPlugin_Example/Pods-PrivatePushnotificationPlugin_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2543,8 +2550,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2569,43 +2576,14 @@
 				INFOPLIST_FILE = "Target Support Files/AWSMobileClient/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSMobileClient/AWSMobileClient.modulemap";
 				PRODUCT_MODULE_NAME = AWSMobileClient;
 				PRODUCT_NAME = AWSMobileClient;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9E4F74C5E8A5F79C3C77768335FFEA17 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B699D00143A5B9831AA23C4C34F5DE3D /* PrivatePushnotificationPlugin.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PrivatePushnotificationPlugin/PrivatePushnotificationPlugin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PrivatePushnotificationPlugin/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PrivatePushnotificationPlugin/PrivatePushnotificationPlugin.modulemap";
-				PRODUCT_MODULE_NAME = PrivatePushnotificationPlugin;
-				PRODUCT_NAME = PrivatePushnotificationPlugin;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2634,7 +2612,11 @@
 				INFOPLIST_FILE = "Target Support Files/AWSCognitoIdentityProvider/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.modulemap";
 				PRODUCT_MODULE_NAME = AWSCognitoIdentityProvider;
 				PRODUCT_NAME = AWSCognitoIdentityProvider;
@@ -2666,7 +2648,11 @@
 				INFOPLIST_FILE = "Target Support Files/AWSPinpoint/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSPinpoint/AWSPinpoint.modulemap";
 				PRODUCT_MODULE_NAME = AWSPinpoint;
 				PRODUCT_NAME = AWSPinpoint;
@@ -2757,7 +2743,11 @@
 				INFOPLIST_FILE = "Target Support Files/AWSCognitoIdentityProviderASF/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.modulemap";
 				PRODUCT_MODULE_NAME = AWSCognitoIdentityProviderASF;
 				PRODUCT_NAME = AWSCognitoIdentityProviderASF;
@@ -2775,7 +2765,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02657DAEC68578A99E6F804D1739AA1F /* AWSAuthCore.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2789,7 +2778,11 @@
 				INFOPLIST_FILE = "Target Support Files/AWSAuthCore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSAuthCore/AWSAuthCore.modulemap";
 				PRODUCT_MODULE_NAME = AWSAuthCore;
 				PRODUCT_NAME = AWSAuthCore;
@@ -2821,7 +2814,11 @@
 				INFOPLIST_FILE = "Target Support Files/AWSCognitoIdentityProvider/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.modulemap";
 				PRODUCT_MODULE_NAME = AWSCognitoIdentityProvider;
 				PRODUCT_NAME = AWSCognitoIdentityProvider;
@@ -2852,7 +2849,11 @@
 				INFOPLIST_FILE = "Target Support Files/AWSCore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSCore/AWSCore.modulemap";
 				PRODUCT_MODULE_NAME = AWSCore;
 				PRODUCT_NAME = AWSCore;
@@ -2871,7 +2872,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02657DAEC68578A99E6F804D1739AA1F /* AWSAuthCore.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2885,14 +2885,17 @@
 				INFOPLIST_FILE = "Target Support Files/AWSAuthCore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSAuthCore/AWSAuthCore.modulemap";
 				PRODUCT_MODULE_NAME = AWSAuthCore;
 				PRODUCT_NAME = AWSAuthCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2917,14 +2920,19 @@
 				INFOPLIST_FILE = "Target Support Files/AWSMobileClient/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/AWSMobileClient/AWSMobileClient.modulemap";
 				PRODUCT_MODULE_NAME = AWSMobileClient;
 				PRODUCT_NAME = AWSMobileClient;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2933,11 +2941,10 @@
 			};
 			name = Release;
 		};
-		FB7378CC2508C1DB0B3992F524C1DF33 /* Release */ = {
+		FF4D422F43F830692D9082DCCEA78C55 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B699D00143A5B9831AA23C4C34F5DE3D /* PrivatePushnotificationPlugin.xcconfig */;
+			baseConfigurationReference = 167CAACD79F505BBA60E03E8FEDC3745 /* PrivatePushnotificationPlugin.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2950,16 +2957,21 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PrivatePushnotificationPlugin/PrivatePushnotificationPlugin-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PrivatePushnotificationPlugin/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/PrivatePushnotificationPlugin/PrivatePushnotificationPlugin.modulemap";
 				PRODUCT_MODULE_NAME = PrivatePushnotificationPlugin;
 				PRODUCT_NAME = PrivatePushnotificationPlugin;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2973,8 +2985,8 @@
 		1CDA8ECCE480A9BC4D0165CEB600C005 /* Build configuration list for PBXNativeTarget "PrivatePushnotificationPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E4F74C5E8A5F79C3C77768335FFEA17 /* Debug */,
-				FB7378CC2508C1DB0B3992F524C1DF33 /* Release */,
+				3BC3A14A6F78AD7F8F4F809A93FE6FFA /* Debug */,
+				FF4D422F43F830692D9082DCCEA78C55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

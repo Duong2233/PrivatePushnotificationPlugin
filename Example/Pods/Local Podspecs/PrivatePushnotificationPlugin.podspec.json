@@ -2,26 +2,22 @@
   "name": "PrivatePushnotificationPlugin",
   "version": "0.1.0",
   "summary": "A short description of PrivatePushnotificationPlugin.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "Push notification plugin",
   "homepage": "https://github.com/Duong2233/PrivatePushnotificationPlugin",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Duong2233": "duong.nh@sutruxsolution.com"
+    "Duong2233": "duong.nh@sutrixsolution.com"
   },
   "source": {
     "git": "https://github.com/Duong2233/PrivatePushnotificationPlugin.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "PrivatePushnotificationPlugin/Classes/**/*",
-  "dependencies": {
-    "AWSCore": [
-      "~> 2.7.3"
-    ]
-  }
+  "swift_version": "4.1",
+  "source_files": "PrivatePushnotificationPlugin/Classes/*.{h,m,swift}"
 }

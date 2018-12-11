@@ -223,7 +223,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				F98C81DE0EBD82822AC0A450 /* [CP] Embed Pods Frameworks */,
+				5F9B0E5E7A0EBABF7B7817EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -314,6 +314,38 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5F9B0E5E7A0EBABF7B7817EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Pods-PrivatePushnotificationPlugin_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Pods-PrivatePushnotificationPlugin_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6505E4AA8F491CAE39D5BE75 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,34 +392,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Example/Pods-PrivatePushnotificationPlugin_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F98C81DE0EBD82822AC0A450 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Pods-PrivatePushnotificationPlugin_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Pods-PrivatePushnotificationPlugin_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -11,12 +11,11 @@ PODS:
     - AWSCognitoIdentityProvider (= 2.7.4)
   - AWSPinpoint (2.7.4):
     - AWSCore (= 2.7.4)
-  - PrivatePushnotificationPlugin (0.1.0):
-    - AWSCore (~> 2.7.3)
+  - PrivatePushnotificationPlugin (0.1.0)
 
 DEPENDENCIES:
-  - AWSMobileClient
-  - AWSPinpoint
+  - AWSMobileClient (~> 2.7.0)
+  - AWSPinpoint (~> 2.7.0)
   - PrivatePushnotificationPlugin (from `../`)
 
 SPEC REPOS:
@@ -39,8 +38,8 @@ SPEC CHECKSUMS:
   AWSCore: 9ff5ac15c4a5dd8419753fe19b9e98f7ba1b7859
   AWSMobileClient: 142858acff0ed9903254d0ff8ea916353ac69972
   AWSPinpoint: 02213f34d34e2ad0bc386e106f223cf45d43957a
-  PrivatePushnotificationPlugin: 6d7eae5cf39b073fc418a48e54f4ffa02be08065
+  PrivatePushnotificationPlugin: a7f3abdb090a42f4efc55d86d163489382c8cc9d
 
-PODFILE CHECKSUM: df9b6c872d1d2a15d12057418125a64623aeb509
+PODFILE CHECKSUM: ce07d046d73078ea7723f6e703d1e84561b2bd48
 
 COCOAPODS: 1.5.3

@@ -6,14 +6,14 @@ pod  'AWSMobileClient', '~> 2.7.0'
 
 target 'PrivatePushnotificationPlugin_Example' do
     use_frameworks!
-
   pod 'PrivatePushnotificationPlugin', :path => '../'
   pod  'AWSPinpoint', '~> 2.7.0'
   pod  'AWSMobileClient', '~> 2.7.0'
-    use_frameworks!
 
   target 'PrivatePushnotificationPlugin_Tests' do
     inherit! :search_paths
+    use_frameworks!
+
     pod  'AWSPinpoint', '~> 2.7.0'
     pod  'AWSMobileClient', '~> 2.7.0'
     
