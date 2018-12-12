@@ -1,4 +1,4 @@
-module AWSMobileClient {
+framework module AWSMobileClient {
   umbrella header "AWSMobileClient-umbrella.h"
 
   export *

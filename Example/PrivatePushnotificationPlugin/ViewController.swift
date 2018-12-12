@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     var a : notificationPlugin?
     override func viewDidLoad() {
         super.viewDidLoad()
-        a?.registerForPushNotifications(didFinishLaunchingWithOptions: [UIApplicationLaunchOptionsKey(rawValue: "dd"):"eee"])
+        a?.registerForPushNotifications(didFinishLaunchingWithOptions: [UIApplication.LaunchOptionsKey(rawValue: "dd"):"eee"])
         // Do any additional setup after loading the view, typically from a nib.
         
     }

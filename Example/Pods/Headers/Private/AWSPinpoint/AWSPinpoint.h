@@ -1,1 +1,0 @@
-../../../AWSPinpoint/AWSPinpoint/AWSPinpoint.h

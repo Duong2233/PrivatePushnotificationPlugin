@@ -1,4 +1,4 @@
-module Pods_PrivatePushnotificationPlugin_Example {
+framework module Pods_PrivatePushnotificationPlugin_Example {
   umbrella header "Pods-PrivatePushnotificationPlugin_Example-umbrella.h"
 
   export *

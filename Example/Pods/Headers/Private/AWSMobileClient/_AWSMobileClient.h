@@ -1,1 +1,0 @@
-../../../AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Internal/_AWSMobileClient.h

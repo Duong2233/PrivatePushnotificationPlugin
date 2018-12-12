@@ -1,13 +1,12 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/PrivatePushnotificationPlugin
-DEFINES_MODULE = YES
+DEFINES_MODULE = YES YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AWSAuthCore" "${PODS_CONFIGURATION_BUILD_DIR}/AWSCognitoIdentityProvider" "${PODS_CONFIGURATION_BUILD_DIR}/AWSCognitoIdentityProviderASF" "${PODS_CONFIGURATION_BUILD_DIR}/AWSCore" "${PODS_CONFIGURATION_BUILD_DIR}/AWSMobileClient" "${PODS_CONFIGURATION_BUILD_DIR}/AWSPinpoint"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public"
-OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/AWSMobileClient/AWSMobileClient.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSAuthCore/AWSAuthCore.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCore/AWSCore.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSPinpoint/AWSPinpoint.modulemap"
-OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/AWSMobileClient/AWSMobileClient.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSAuthCore/AWSAuthCore.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCore/AWSCore.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSPinpoint/AWSPinpoint.modulemap" -import-underlying-module -Xcc -fmodule-map-file="${SRCROOT}/${MODULEMAP_FILE}"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
 PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
 PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
 SKIP_INSTALL = YES
-SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AWSMobileClient"
+SWIFT_OBJC_INTERFACE_HEADER_NAME = $(SWIFT_MODULE_NAME)-Swift.h $(SWIFT_MODULE_NAME)-Swift.h

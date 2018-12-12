@@ -25,22 +25,24 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Duong2233/PrivatePushnotificationPlugin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '9.2'
   s.swift_version = '4.2'
   s.source_files = 'PrivatePushnotificationPlugin/Classes/*.{swift}'
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
-  s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks','DEFINES_MODULE' => 'YES' }
+  #s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES','SWIFT_OBJC_INTERFACE_HEADER_NAME' => '$(SWIFT_MODULE_NAME)-Swift.h' }
+  # s.pod_target_xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '$(PODS_ROOT)/../../AWSMobileClient/AWSMobileClient.h' }
+  #s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks','DEFINES_MODULE' => 'YES','SWIFT_OBJC_INTERFACE_HEADER_NAME' => '$(SWIFT_MODULE_NAME)-Swift.h' }
+  #  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/ProjectFolder/LibraryFolder' }
+  #s.xcconfig = { 'SWIFT_OBJC_INTERFACE_HEADER_NAME' => '$(SWIFT_MODULE_NAME)-Swift.h','DEFINES_MODULE' => 'YES' }
 
-   s.static_framework = true
+  # s.static_framework = true
   # s.resource_bundles = {
   #   'PrivatePushnotificationPlugin' => ['PrivatePushnotificationPlugin/Assets/*.png']
   # }
-#  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/ProjectFolder/LibraryFolder' }
 
 #  s.requires_arc = true
 
 #   s.public_header_files = 'Example/Pods/Classes/**/*.h'
-#   s.frameworks = 'AWSAuthCore', 'AWSCore' , 'AWSCognitoIdentityProvider', 'AWSCognitoIdentityProviderASF'
+#   s.frameworks = 'AWSAuthCore', 'AWSCore' , 'AWSCognitoIdentityProvider', 'AWSCognitoIdentityProviderASF', 'AWSMobileClient'
    s.dependency 'AWSCore', '~> 2.7.4'
    s.dependency 'AWSPinpoint', '~> 2.7.4'
     s.dependency 'AWSAuthCore', '~> 2.7.4'
@@ -48,13 +50,13 @@ Pod::Spec.new do |s|
     s.dependency 'AWSCognitoIdentityProvider', '~> 2.7.4'
     s.dependency 'AWSCognitoIdentityProviderASF','~> 1.0.1'
 
-#    s.subspec 'AWSMobileClient' do |awsmobileclient|
-#        awsmobileclient.frameworks = 'AWSAuthCore','AWSCore','AWSCognitoIdentityProvider','AWSCognitoIdentityProviderASF'
-#        awsmobileclient.dependency 'AWSPinpoint', '~> 2.7.4'
-#    awsmobileclient.dependency 'AWSAuthCore', '~> 2.7.4'
-#    awsmobileclient.dependency 'AWSCore', '~> 2.7.4'
-#    awsmobileclient.dependency 'AWSCognitoIdentityProvider', '~> 2.7.4'
-#    awsmobileclient.dependency 'AWSCognitoIdentityProviderASF','~> 1.0.1'
+#    s.subspec 'Pods' do |awsmobileclient|
+#        awsmobileclient.public_header_files = 'Pods/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClient.h', 'Pods/AWSAuthSDK/Sources/AWSMobileClient/Internal/_AWSMobileClient.h'
+##        awsmobileclient.dependency 'AWSPinpoint', '~> 2.7.4'
+##    awsmobileclient.dependency 'AWSAuthCore', '~> 2.7.4'
+##    awsmobileclient.dependency 'AWSCore', '~> 2.7.4'
+##    awsmobileclient.dependency 'AWSCognitoIdentityProvider', '~> 2.7.4'
+##    awsmobileclient.dependency 'AWSCognitoIdentityProviderASF','~> 1.0.1'
 #
 #    end
 end

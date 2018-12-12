@@ -1,4 +1,4 @@
-module PrivatePushnotificationPlugin {
+framework module PrivatePushnotificationPlugin {
   umbrella header "PrivatePushnotificationPlugin-umbrella.h"
 
   export *
