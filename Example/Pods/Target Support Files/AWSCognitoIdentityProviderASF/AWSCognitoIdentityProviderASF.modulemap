@@ -1,4 +1,4 @@
-framework module AWSCognitoIdentityProviderASF {
+module AWSCognitoIdentityProviderASF {
   umbrella header "AWSCognitoIdentityProviderASF-umbrella.h"
 
   export *

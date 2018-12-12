@@ -7,23 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1402105B31AC7CCB5C74A0E4 /* Pods_PrivatePushnotificationPlugin_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095EC21BE65F7003EFB74 /* Pods_PrivatePushnotificationPlugin_Tests.framework */; };
+		2E439BCA17B04EFE98392B61 /* libPods-PrivatePushnotificationPlugin_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 899D4C77341765049EC20CBA /* libPods-PrivatePushnotificationPlugin_Example.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		D71095E121BE65F7003EFB74 /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E021BE65F7003EFB74 /* AWSAuthCore.framework */; };
-		D71095E321BE65F7003EFB74 /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E221BE65F7003EFB74 /* AWSCognitoIdentityProvider.framework */; };
-		D71095E521BE65F7003EFB74 /* AWSCognitoIdentityProviderASF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E421BE65F7003EFB74 /* AWSCognitoIdentityProviderASF.framework */; };
-		D71095E721BE65F7003EFB74 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E621BE65F7003EFB74 /* AWSCore.framework */; };
-		D71095E921BE65F7003EFB74 /* AWSMobileClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E821BE65F7003EFB74 /* AWSMobileClient.framework */; };
-		D71095EB21BE65F7003EFB74 /* AWSPinpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095EA21BE65F7003EFB74 /* AWSPinpoint.framework */; };
-		D71095ED21BE65F7003EFB74 /* Pods_PrivatePushnotificationPlugin_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095EC21BE65F7003EFB74 /* Pods_PrivatePushnotificationPlugin_Tests.framework */; };
 		D71095EF21BE65F7003EFB74 /* PrivatePushnotificationPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095EE21BE65F7003EFB74 /* PrivatePushnotificationPlugin.framework */; };
-		DAAB92013F27F7E89F3CFFC1 /* Pods_PrivatePushnotificationPlugin_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3ADE632EB4816C1712B16C /* Pods_PrivatePushnotificationPlugin_Tests.framework */; };
-		F396B157EC2B342F4962F7BF /* Pods_PrivatePushnotificationPlugin_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6C62DB2752133A9A23546F /* Pods_PrivatePushnotificationPlugin_Example.framework */; };
+		D710963B21C0A64D003EFB74 /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E021BE65F7003EFB74 /* AWSAuthCore.framework */; };
+		D710963C21C0A64D003EFB74 /* AWSAuthCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E021BE65F7003EFB74 /* AWSAuthCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D710963D21C0A64D003EFB74 /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E221BE65F7003EFB74 /* AWSCognitoIdentityProvider.framework */; };
+		D710963E21C0A64D003EFB74 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E221BE65F7003EFB74 /* AWSCognitoIdentityProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D710963F21C0A64D003EFB74 /* AWSCognitoIdentityProviderASF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E421BE65F7003EFB74 /* AWSCognitoIdentityProviderASF.framework */; };
+		D710964021C0A64D003EFB74 /* AWSCognitoIdentityProviderASF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E421BE65F7003EFB74 /* AWSCognitoIdentityProviderASF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D710964121C0A64D003EFB74 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E621BE65F7003EFB74 /* AWSCore.framework */; };
+		D710964221C0A64D003EFB74 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E621BE65F7003EFB74 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D710964321C0A64D003EFB74 /* AWSMobileClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E821BE65F7003EFB74 /* AWSMobileClient.framework */; };
+		D710964421C0A64D003EFB74 /* AWSMobileClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D71095E821BE65F7003EFB74 /* AWSMobileClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D710964521C0A64D003EFB74 /* AWSPinpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095EA21BE65F7003EFB74 /* AWSPinpoint.framework */; };
+		D710964621C0A64D003EFB74 /* AWSPinpoint.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D71095EA21BE65F7003EFB74 /* AWSPinpoint.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D710964821C0A663003EFB74 /* PrivatePushnotificationPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71095EE21BE65F7003EFB74 /* PrivatePushnotificationPlugin.framework */; };
+		D710964921C0A663003EFB74 /* PrivatePushnotificationPlugin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D71095EE21BE65F7003EFB74 /* PrivatePushnotificationPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D710964721C0A64E003EFB74 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D710964021C0A64D003EFB74 /* AWSCognitoIdentityProviderASF.framework in Embed Frameworks */,
+				D710964221C0A64D003EFB74 /* AWSCore.framework in Embed Frameworks */,
+				D710963C21C0A64D003EFB74 /* AWSAuthCore.framework in Embed Frameworks */,
+				D710964421C0A64D003EFB74 /* AWSMobileClient.framework in Embed Frameworks */,
+				D710963E21C0A64D003EFB74 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */,
+				D710964621C0A64D003EFB74 /* AWSPinpoint.framework in Embed Frameworks */,
+				D710964921C0A663003EFB74 /* PrivatePushnotificationPlugin.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1157A6C02ED6EB1E0432A72E /* Pods-PrivatePushnotificationPlugin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivatePushnotificationPlugin_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Example/Pods-PrivatePushnotificationPlugin_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		403F4E012BEA2239BED66937 /* Pods-PrivatePushnotificationPlugin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivatePushnotificationPlugin_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Pods-PrivatePushnotificationPlugin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A6C62DB2752133A9A23546F /* Pods_PrivatePushnotificationPlugin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivatePushnotificationPlugin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* PrivatePushnotificationPlugin_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivatePushnotificationPlugin_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,8 +73,9 @@
 		607FACE51AFB9204008FA782 /* PrivatePushnotificationPlugin_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivatePushnotificationPlugin_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6FFC5E227A5FBF3A68B12C12 /* Pods_PrivatePushnotificationPlugin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivatePushnotificationPlugin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		899D4C77341765049EC20CBA /* libPods-PrivatePushnotificationPlugin_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrivatePushnotificationPlugin_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FA11BD4C12D3F5ECE85A0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D07CCE5A47C1A63192EBA9E6 /* Pods-PrivatePushnotificationPlugin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivatePushnotificationPlugin_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Pods-PrivatePushnotificationPlugin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D315A8151DF0B54FDCED28D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D71095E021BE65F7003EFB74 /* AWSAuthCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSAuthCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71095E221BE65F7003EFB74 /* AWSCognitoIdentityProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSCognitoIdentityProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,9 +83,7 @@
 		D71095E621BE65F7003EFB74 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71095E821BE65F7003EFB74 /* AWSMobileClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSMobileClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71095EA21BE65F7003EFB74 /* AWSPinpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSPinpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D71095EC21BE65F7003EFB74 /* Pods_PrivatePushnotificationPlugin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_PrivatePushnotificationPlugin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71095EE21BE65F7003EFB74 /* PrivatePushnotificationPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PrivatePushnotificationPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD3ADE632EB4816C1712B16C /* Pods_PrivatePushnotificationPlugin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivatePushnotificationPlugin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71829A148825311F1C40A0F /* Pods-PrivatePushnotificationPlugin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivatePushnotificationPlugin_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Example/Pods-PrivatePushnotificationPlugin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FBA29ABF6142883CEB811CBE /* PrivatePushnotificationPlugin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PrivatePushnotificationPlugin.podspec; path = ../PrivatePushnotificationPlugin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -71,15 +93,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D71095E121BE65F7003EFB74 /* AWSAuthCore.framework in Frameworks */,
-				D71095E321BE65F7003EFB74 /* AWSCognitoIdentityProvider.framework in Frameworks */,
-				D71095E521BE65F7003EFB74 /* AWSCognitoIdentityProviderASF.framework in Frameworks */,
-				D71095E721BE65F7003EFB74 /* AWSCore.framework in Frameworks */,
-				D71095E921BE65F7003EFB74 /* AWSMobileClient.framework in Frameworks */,
-				D71095EB21BE65F7003EFB74 /* AWSPinpoint.framework in Frameworks */,
-				D71095ED21BE65F7003EFB74 /* Pods_PrivatePushnotificationPlugin_Tests.framework in Frameworks */,
+				D710963B21C0A64D003EFB74 /* AWSAuthCore.framework in Frameworks */,
 				D71095EF21BE65F7003EFB74 /* PrivatePushnotificationPlugin.framework in Frameworks */,
-				F396B157EC2B342F4962F7BF /* Pods_PrivatePushnotificationPlugin_Example.framework in Frameworks */,
+				2E439BCA17B04EFE98392B61 /* libPods-PrivatePushnotificationPlugin_Example.a in Frameworks */,
+				D710964321C0A64D003EFB74 /* AWSMobileClient.framework in Frameworks */,
+				D710963F21C0A64D003EFB74 /* AWSCognitoIdentityProviderASF.framework in Frameworks */,
+				D710964521C0A64D003EFB74 /* AWSPinpoint.framework in Frameworks */,
+				D710963D21C0A64D003EFB74 /* AWSCognitoIdentityProvider.framework in Frameworks */,
+				D710964821C0A663003EFB74 /* PrivatePushnotificationPlugin.framework in Frameworks */,
+				D710964121C0A64D003EFB74 /* AWSCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAAB92013F27F7E89F3CFFC1 /* Pods_PrivatePushnotificationPlugin_Tests.framework in Frameworks */,
-				1402105B31AC7CCB5C74A0E4 /* Pods_PrivatePushnotificationPlugin_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +120,6 @@
 			children = (
 				1157A6C02ED6EB1E0432A72E /* Pods-PrivatePushnotificationPlugin_Example.debug.xcconfig */,
 				E71829A148825311F1C40A0F /* Pods-PrivatePushnotificationPlugin_Example.release.xcconfig */,
-				403F4E012BEA2239BED66937 /* Pods-PrivatePushnotificationPlugin_Tests.debug.xcconfig */,
-				D07CCE5A47C1A63192EBA9E6 /* Pods-PrivatePushnotificationPlugin_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -185,10 +203,9 @@
 				D71095E621BE65F7003EFB74 /* AWSCore.framework */,
 				D71095E821BE65F7003EFB74 /* AWSMobileClient.framework */,
 				D71095EA21BE65F7003EFB74 /* AWSPinpoint.framework */,
-				D71095EC21BE65F7003EFB74 /* Pods_PrivatePushnotificationPlugin_Tests.framework */,
 				D71095EE21BE65F7003EFB74 /* PrivatePushnotificationPlugin.framework */,
-				4A6C62DB2752133A9A23546F /* Pods_PrivatePushnotificationPlugin_Example.framework */,
-				DD3ADE632EB4816C1712B16C /* Pods_PrivatePushnotificationPlugin_Tests.framework */,
+				6FFC5E227A5FBF3A68B12C12 /* Pods_PrivatePushnotificationPlugin_Tests.framework */,
+				899D4C77341765049EC20CBA /* libPods-PrivatePushnotificationPlugin_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,7 +221,8 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				9ED5D4BFA56CA16B42E0217B /* [CP] Embed Pods Frameworks */,
+				D710964721C0A64E003EFB74 /* Embed Frameworks */,
+				D710964A21C0A682003EFB74 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -219,11 +237,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PrivatePushnotificationPlugin_Tests" */;
 			buildPhases = (
-				6505E4AA8F491CAE39D5BE75 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				5F9B0E5E7A0EBABF7B7817EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -314,81 +330,18 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5F9B0E5E7A0EBABF7B7817EE /* [CP] Embed Pods Frameworks */ = {
+		D710964A21C0A682003EFB74 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Pods-PrivatePushnotificationPlugin_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
 			);
-			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Tests/Pods-PrivatePushnotificationPlugin_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6505E4AA8F491CAE39D5BE75 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PrivatePushnotificationPlugin_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9ED5D4BFA56CA16B42E0217B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Example/Pods-PrivatePushnotificationPlugin_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
-				"${BUILT_PRODUCTS_DIR}/PrivatePushnotificationPlugin/PrivatePushnotificationPlugin.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrivatePushnotificationPlugin.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivatePushnotificationPlugin_Example/Pods-PrivatePushnotificationPlugin_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -468,6 +421,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -527,6 +481,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -557,6 +512,7 @@
 			baseConfigurationReference = 1157A6C02ED6EB1E0432A72E /* Pods-PrivatePushnotificationPlugin_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7WJ9LZH834;
 				INFOPLIST_FILE = PrivatePushnotificationPlugin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -564,6 +520,7 @@
 					"@executable_path/Frameworks",
 				);
 				MODULE_NAME = ExampleApp;
+				OTHER_CFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -580,6 +537,7 @@
 			baseConfigurationReference = E71829A148825311F1C40A0F /* Pods-PrivatePushnotificationPlugin_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7WJ9LZH834;
 				INFOPLIST_FILE = PrivatePushnotificationPlugin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -587,6 +545,7 @@
 					"@executable_path/Frameworks",
 				);
 				MODULE_NAME = ExampleApp;
+				OTHER_CFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -600,7 +559,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 403F4E012BEA2239BED66937 /* Pods-PrivatePushnotificationPlugin_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -626,7 +584,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D07CCE5A47C1A63192EBA9E6 /* Pods-PrivatePushnotificationPlugin_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

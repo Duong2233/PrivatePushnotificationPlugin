@@ -1,6 +1,0 @@
-framework module Pods_PrivatePushnotificationPlugin_Tests {
-  umbrella header "Pods-PrivatePushnotificationPlugin_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

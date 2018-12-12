@@ -1,0 +1,1 @@
+/Users/dev/.cocoapods/repos/PrivatePushnotificationPlugin/PrivatePushnotificationPlugin/Example/Pods/Target Support Files/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF-umbrella.h

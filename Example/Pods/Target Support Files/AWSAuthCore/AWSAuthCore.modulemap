@@ -1,4 +1,4 @@
-framework module AWSAuthCore {
+module AWSAuthCore {
   umbrella header "AWSAuthCore-umbrella.h"
 
   export *

@@ -10,8 +10,10 @@ import UIKit
 import PrivatePushnotificationPlugin
 
 class ViewController: UIViewController {
+    var a : notificationPlugin?
     override func viewDidLoad() {
         super.viewDidLoad()
+        a?.registerForPushNotifications(didFinishLaunchingWithOptions: [UIApplicationLaunchOptionsKey(rawValue: "dd"):"eee"])
         // Do any additional setup after loading the view, typically from a nib.
         
     }

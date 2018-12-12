@@ -18,6 +18,33 @@
   "platforms": {
     "ios": "9.0"
   },
-  "swift_version": "4.1",
-  "source_files": "PrivatePushnotificationPlugin/Classes/*.{h,m,swift}"
+  "swift_version": "4.2",
+  "source_files": "PrivatePushnotificationPlugin/Classes/*.{swift}",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+  },
+  "static_framework": true,
+  "dependencies": {
+    "AWSCore": [
+      "~> 2.7.4"
+    ],
+    "AWSPinpoint": [
+      "~> 2.7.4"
+    ],
+    "AWSAuthCore": [
+      "~> 2.7.4"
+    ],
+    "AWSMobileClient": [
+      "~> 2.7.4"
+    ],
+    "AWSCognitoIdentityProvider": [
+      "~> 2.7.4"
+    ],
+    "AWSCognitoIdentityProviderASF": [
+      "~> 1.0.1"
+    ]
+  }
 }

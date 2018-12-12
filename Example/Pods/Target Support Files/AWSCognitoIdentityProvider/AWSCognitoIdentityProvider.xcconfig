@@ -1,7 +1,7 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/AWSCognitoIdentityProvider
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AWSCognitoIdentityProviderASF" "${PODS_CONFIGURATION_BUILD_DIR}/AWSCore"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-OTHER_LDFLAGS = -framework "Security" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/AWSCognitoIdentityProvider" "${PODS_ROOT}/Headers/Public"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCore/AWSCore.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

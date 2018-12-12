@@ -25,20 +25,36 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Duong2233/PrivatePushnotificationPlugin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
   s.platform     = :ios, '9.0'
+  s.swift_version = '4.2'
+  s.source_files = 'PrivatePushnotificationPlugin/Classes/*.{swift}'
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+  s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks','DEFINES_MODULE' => 'YES' }
 
-  s.swift_version = '4.1'
-  s.source_files = 'PrivatePushnotificationPlugin/Classes/*.{h,m,swift}'
-  
+   s.static_framework = true
   # s.resource_bundles = {
   #   'PrivatePushnotificationPlugin' => ['PrivatePushnotificationPlugin/Assets/*.png']
   # }
+#  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/ProjectFolder/LibraryFolder' }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AWSCore', '~> 2.7.3'
-   s.dependency 'AWSPinpoint', '~> 2.7.0'
-   s.dependency 'AWSMobileClient', '~> 2.7.0'
+#  s.requires_arc = true
 
+#   s.public_header_files = 'Example/Pods/Classes/**/*.h'
+#   s.frameworks = 'AWSAuthCore', 'AWSCore' , 'AWSCognitoIdentityProvider', 'AWSCognitoIdentityProviderASF'
+   s.dependency 'AWSCore', '~> 2.7.4'
+   s.dependency 'AWSPinpoint', '~> 2.7.4'
+    s.dependency 'AWSAuthCore', '~> 2.7.4'
+   s.dependency 'AWSMobileClient', '~> 2.7.4'
+    s.dependency 'AWSCognitoIdentityProvider', '~> 2.7.4'
+    s.dependency 'AWSCognitoIdentityProviderASF','~> 1.0.1'
+
+#    s.subspec 'AWSMobileClient' do |awsmobileclient|
+#        awsmobileclient.frameworks = 'AWSAuthCore','AWSCore','AWSCognitoIdentityProvider','AWSCognitoIdentityProviderASF'
+#        awsmobileclient.dependency 'AWSPinpoint', '~> 2.7.4'
+#    awsmobileclient.dependency 'AWSAuthCore', '~> 2.7.4'
+#    awsmobileclient.dependency 'AWSCore', '~> 2.7.4'
+#    awsmobileclient.dependency 'AWSCognitoIdentityProvider', '~> 2.7.4'
+#    awsmobileclient.dependency 'AWSCognitoIdentityProviderASF','~> 1.0.1'
+#
+#    end
 end

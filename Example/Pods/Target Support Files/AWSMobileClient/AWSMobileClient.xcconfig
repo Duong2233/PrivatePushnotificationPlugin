@@ -1,7 +1,8 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/AWSMobileClient
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AWSAuthCore" "${PODS_CONFIGURATION_BUILD_DIR}/AWSCognitoIdentityProvider" "${PODS_CONFIGURATION_BUILD_DIR}/AWSCognitoIdentityProviderASF" "${PODS_CONFIGURATION_BUILD_DIR}/AWSCore"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/AWSMobileClient" "${PODS_ROOT}/Headers/Public"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSAuthCore/AWSAuthCore.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCore/AWSCore.modulemap"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSAuthCore/AWSAuthCore.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/AWSCore/AWSCore.modulemap" -import-underlying-module -Xcc -fmodule-map-file="${SRCROOT}/${MODULEMAP_FILE}"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
